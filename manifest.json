@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Game predict",
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "tabs"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "host_permissions": [
+      "https://game-prediction-kr.web.app/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
